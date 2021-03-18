@@ -35,7 +35,7 @@ body{
     min-height: 700px;
     width: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 .login__container--form{
@@ -59,28 +59,17 @@ body{
 .login__container--remember-me a:hover{
     text-decoration: underline;
 }
-.login__container--social-media > div{
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-.login__container--social-media > div > img{
-    width: 30px;
-    margin-right: 10px;
-    cursor: pointer;
-}
 .login__container--register{
 font-size: 14px;
 }
-.login__container--register a{
+.login__container--register{
     color: white;
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;  
+    margin: 0 auto;
 }
-.login__container--register a:hover{
+.login__container--register:hover{
     text-decoration: underline;
 }
 .input{
@@ -134,9 +123,6 @@ footer a:hover{
         border: none;
         padding: 0px;
         width: 100%;
-    }
-    #cbox1{
-        margin-right: 10px;
     }
     .footer{
         align-items: flex-start;
